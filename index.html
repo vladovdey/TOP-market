@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>TOP MARKET</title>
+	<!-- <meta name="description" content="Топ маркет"> -->
+	<meta property="og:title" content="Top market"/>
+	<meta property="og:description" content="Пленка с изменяемой прозрачностью"/>
+	<meta property="og:image" content="http://top1market.ru/img/top-market-logo.png">
+	<meta property="og:type" content="profile"/>
+	<meta property="og:url" content= "http://top1market.ru" />
+	<meta property="og:site_name" content="Top-market" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="./libs/slick/slick.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="./libs/slick/slick-theme.css" /> -->
+
+</head>
+
+<body>
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<!-- Custom HTML -->
+
+	<header class="header">
+
+		<div class="container-fluid navmenu">
+			<div class="row justify-content-center">
+				<div class="col-md-3 col-6 navmenu__logo align-self-start">
+						<img src="./img/top-market-logo.png" alt="logo">
+				</div>
+
+				<div class="col-sm-5 navmenu__menu ">
+					<div class="row">
+						<div class="col-auto navmenu__menu_items">
+							<a class="menu_items__item" href="">Главная</a>
+							<a class="menu_items__item" href="#ab-us">О нас</a>
+							<a class="menu_items__item" href="#frm">Заявка</a>
+							<a class="menu_items__item" href="#video">Видео</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-6 navmenu__phone ">
+					<div class="col-lg-12 col-12 navmenu__phone___numbers"><span>+7 963 398 4731</span>
+						<div id="callback">Заказать звонок</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+
+		<div class="container-fluid header_content">
+			<div class="row ">
+				<div class="col-md-12 col-12 header_content__text">
+					<h1>Пленка с измен<span class="modified-text">яемой</span> <br> прозрачностью</h1>
+					<p>Мы ищем дистрибьюторов нашей <br> продукции в всех регионах России</p>
+					<button class="button" id="callback">Заказать консультацию</button>
+				</div>
+
+				<div class="col-md-12 col-12 header_content__img">
+					<div class="row justify-content-end">
+						<div class="col-md-5 header_content__img___padd"></div>
+						<img src="./img/header_img.jpg" alt="glass" class="header_content__img-on">
+						<img src="./img/header_toner-img.jpg" alt="tonned_glass" class="header_content__img-off">
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row header_content__button">
+				<div class="col-1 header_content__button___img">
+					<img src="./img/switcher-toggled.png" alt="" class="switcher off">
+					<img src="./img/switcher.png" alt="" class="switcher on">
+
+				</div>
+				<!-- <div class="col-1"> -->
+				<div class="col-2 header_content__button___popup">
+					<p>Попробуй</p>
+				</div>
+				<!-- </div> -->
+			</div>
+
+			<!-- <div class="row">
+				<div class="col-2 header_content__button___popup">
+					<p>Попробуй</p>
+				</div>
+			</div> -->
+
+		</div>
+
+
+		<div class="contact_us">
+			<div class="contact_us__body">
+				<div class="contact_us__body___close">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+						stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<line x1="18" y1="6" x2="6" y2="18"></line>
+						<line x1="6" y1="6" x2="18" y2="18"></line>
+					</svg>
+				</div>
+				<div class="contact_us__body___text">
+					<h1>Обратный звонок</h1>
+					<p>Заполните форму,<br> и мы обязательно свяжемся с вами!</p>
+
+				</div>
+				<div class="contact_us__body___form">
+					<form action="./mail.php" class="form" method="POST">
+						<p><label for="name">Имя</label></p>
+						<input type="text" name="name" id="name" placeholder="Введите имя">
+						<p><label for="name">Телефон</label></p>
+						<input type="text" name="phone" id="phone" placeholder="Ваш телефон">
+						<button class="button">Заказать звонок</button>
+					</form>
+				</div>
+
+				<div class="contact_us__body___agree">
+					<p>Нажимая на кнопку <br> Заказать звонок”, я даю согласие <br> на обработку моих персональных
+						данных.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- /.header -->
+
+	<section class="about-business">
+		<div class="container-fluid">
+
+			<div class="row business-text justify-content-center">
+				<h1>Почему этот бизнес <br> вам подходит </h1>
+			</div>
+
+			<div class="about-business_carousel">
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-box.png" alt="">
+					<p>Уникальный товар. <br>Не имеет <br> полноценных <br> аналогов</p>
+				</div>
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-support.png" alt="">
+					<p>Есть вау эффект</p>
+				</div>
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-magic.png" alt="">
+					<p>Возможность реализовывать как в розницу, так и оптом</p>
+				</div>
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-community.png" alt="">
+					<p>Возможность реализовывать как в розницу, так и оптом</p>
+				</div>
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-document.png" alt="">
+					<p>Имеет полноценную сертификацию</p>
+				</div>
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-fast.png" alt="">
+					<p>Цикл сделки - быстрый</p>
+				</div>
+				<div class="col-md-1 col-sm-4 about-business_carousel-block">
+					<img src="./img/corusel-money.png" alt="">
+					<p>Продукт просто применять, не требуется дополнительных знаний</p>
+				</div>
+			</div>
+			<div class="row arrows justify-content-center">
+				<button class='btn_arrow about-business_prev' id='prev'></button>
+				<button class='btn_arrow about-business_next' id='next'></button>
+			</div>
+		</div>
+	</section>
+	<!-- /.about-busines -->
+
+	<section class="before-after">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 before-after_contimg">
+					<div class="twentytwenty-container">
+						<img src="./img/before.jpg" width="100%" />
+						<img src="./img/after.jpg" width="100%" />
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- /.before-after -->
+
+	<section class="form" id="frm">
+		<div class="container-fluid">
+			<div class="row text justify-content-center">
+				<div class="col-sm-12">
+					<h1>Оформить заявку прямо сейчас</h1>
+				</div>
+			</div>
+
+			<form action="./mail.php" method="POST">
+				<!-- Hidden Required Fields -->
+				<!-- <input type="hidden" name="project_name" value="Site Name">
+				<input type="hidden" name="admin_email" value="ovdeyvlad@gmail.com">
+				<input type="hidden" name="form_subject" value="Form Subject"> -->
+				<!-- END Hidden Required Fields -->
+				<div class="row justify-content-center">
+
+					<div class="col-auto name">
+						<p><label for="name">Имя</label></p>
+						<input type="text" name="name" id="name" placeholder="Введите имя">
+					</div>
+
+					<div class="col-auto phone">
+						<p><label for="phone">Телефон</label></p>
+						<input type="text" name="phone" id="phone" placeholder="Ваш телефон">
+					</div>
+
+					<button class="button" type="submit">Отправить</button>
+				</div>
+			</form>
+
+			<div class="bottom-text">
+				<div class="row justify-content-center">
+					<div class="col-12">
+						<p>Приобретайте нашу продукцию и продавайте с прибылью до 500%</p>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- /.form -->
+
+	<section class="about-us" id="ab-us">
+		<div class="container-fluid">
+
+			<div class="row about-us_header justify-content-center">
+				<div class="col-md-12 about-us_header__text">
+					<h1>О нас</h1>
+				</div>
+			</div>
+
+			<div class="row about-us_content justify-content-center">
+
+				<div class="col-lg-4 col-sm-12 about-us_content__img">
+					<img src="./img/about-us-img.jpg" alt="">
+				</div>
+
+				<div class="col-lg-5 col-sm-12 about-us_content__text">
+
+					<div class="row justify-content-center">
+
+						<h2>ООО"ТОП-МАРКЕТ"</h2>
+					</div>
+
+					<div class="row ">
+						<p>Мы являемся производителями инновационной пленки <br> “Смарт Пленка”</p>
+						<p>Компания ООО"Топ-маркет" единственный производитель в России.</p>
+						<p>Пленка производится итальянскими технологиями.</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row about-us_advantages__header justify-content-center">
+				<div class="about-us_advanteges_header__text">
+					<h1>Чем мы помогаем нашим <br> клиентам</h1>
+				</div>
+
+			</div>
+
+			<div class="row about-us_advantages__content justify-content-center">
+
+				<div class="col-md-5 col-12 align-self-center ">
+					<div class="row">
+						<div class="col-auto align-self-center">
+							<img src="./img/logo-advantages.png" alt="">
+						</div>
+						<div class="col">
+							<h3>Предоставляем базу <br> клиентов в вашем регионе </h3>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-6 col-12">
+					<div class="row">
+						<div class="col-auto align-self-center ">
+							<img src="./img/logo-advantages.png" alt="">
+						</div>
+						<div class="col">
+							<h3>Предоставляем <br> менеджера для курирования <br> ваших вопросов</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="w-100"></div>
+
+				<div class="col-md-5 col-12">
+					<div class="row">
+						<div class="col-auto align-self-center ">
+							<img src="./img/logo-advantages.png" alt="">
+						</div>
+						<div class="col">
+							<h3>Помогаем с разработкой <br> сайта</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-12">
+					<div class="row">
+						<div class="col-auto align-self-center ">
+							<img src="./img/logo-advantages.png" alt="">
+						</div>
+						<div class="col">
+							<h3>Оказываем рекламную поддержку</h3>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- /.about-us -->
+
+	<section class="video-slider" id="video">
+		<div class="container-fluid video-slider__content">
+			<div class="row justify-content-center" id="carousel">
+				<div class="col-4 prev">
+					<video width="450" controls id="prev_movie">
+						<source src="/video/topmarket.mp4" type="video/mp4 ">
+						Your browser doesn't support HTML5 video tag.
+					</video>
+				</div>
+
+				<div class="col-4 selected">
+					<!-- <img src="./img/video-ex.png"> -->
+					<video width="450" controls id="selected_movie">
+						<source src="/video/ofys.mp4" type="video/mp4 ">
+						Your browser doesn't support HTML5 video tag.
+					</video>
+				</div>
+
+				<div class="col-4 next">
+					<video width="450" controls id="next_movie">
+						<source src="/video/topmarket1.mp4" type="video/mp4 ">
+						Your browser doesn't support HTML5 video tag.
+					</video>
+				</div>
+
+			</div>
+
+			<div class="buttons">
+				<button class="btn_arrow vid_prev" id="prev"></button>
+				<button class="btn_arrow vid_next" id="next"></button>
+			</div>
+
+		</div>
+	</section>
+	<!-- /.video-slider -->
+
+	<section class="toning">
+		<div class="container-fluid">
+			<div class="toning-setting">
+				<p>Настройка прозрачности</p>
+				<input type="range" name="toning_range" id="toning_range" value="0">
+				<div class="white_strip"></div>
+				<!-- <span class="toning-setting_switcher"></span>
+				<div class="toning-setting_strip "></div> -->
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<img class="truck toner" src="./img/truck-toner.jpg" width="100%" alt="Tonned truck">
+					<img class="truck toner-not" src="./img/truck-not-toner.jpg" width="100%" alt="Not tonned truck">
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!-- /.toning -->
+
+	<section class="clients">
+		<div class="container-fluid">
+			<div class="row clients_header justify-content-center">
+				<h1>Ваши клиенты</h1>
+			</div>
+		</div>
+	</section>
+	<!-- /.clients -->
+
+	<section class="clients-list">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-12 clients-list__col">
+					<ol>
+						<li>Бизнес-центр</li>
+						<li>Офисы</li>
+						<li>Дизайнеры интерьеров</li>
+						<li>Автовладельцы</li>
+						<li>Строительные компании</li>
+						<li>Автосервисы</li>
+						<li>Производители стекол</li>
+				</div>
+				<div class="col-md-6 col-12 clients-list__col">
+					<ol start="8">
+						<li>Владельцы дач, домов</li>
+						<li>Частные мастера</li>
+						<li>Строительные магазины</li>
+						<li>Фирмы продажи окон</li>
+						<li>Кафе, рестораны</li>
+						<li>Торговые центры</li>
+						<li>Государственые службы</li>
+					</ol>
+
+				</div>
+
+				</ol>
+			</div>
+		</div>
+	</section>
+	<!-- /.clients-list -->
+
+	<section class="clients-button">
+		<div class="container">
+			<div class="row justify-content-center">
+				<button class="button" id="callback">Оставить заявку</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="examples-slider">
+		<div class="container-fluid">
+
+			<div class="row examples-slider-text justify-content-center">
+				<h1>Примеры наших работ</h1>
+			</div>
+
+			<div class="examples-slider_carousel">
+				<div class="col-1 examples-slider_carousel__block">
+					<img src="./img/example-carousel-office-ton.jpg" alt="">
+				</div>
+
+				<div class="col-1 examples-slider_carousel__block">
+					<img src="./img/example-carousel-office-not.jpg" alt="">
+				</div>
+
+				<div class="col-1 examples-slider_carousel__block">
+					<img src="./img/example-carousel-room-ton.jpg" alt="">
+				</div>
+
+				<div class="col-1 examples-slider_carousel__block">
+					<img src="./img/example-carousel-room-not.jpg" alt="">
+				</div>
+
+				<div class="col-1 examples-slider_carousel__block">
+					<img src="./img/example-carousel-cafe-not.jpg" alt="">
+				</div>
+
+				<div class="col-1 examples-slider_carousel__block">
+					<img src="./img/example-carousel-cafe-not.jpg" alt="">
+				</div>
+			</div>
+			<div class="row arrows justify-content-center">
+				<button class='btn_arrow examples_btn_prev' id='prev'></button>
+				<button class='btn_arrow examples_btn_next' id='next'></button>
+			</div>
+		</div>
+	</section>
+	<!-- /.examples-slider -->
+
+	<section class="sertificats">
+		<div class="container">
+			<div class="row sertificats_header justify-content-center">
+				<div class="col-12">
+					<h1>Наши сертификаты</h1>
+				</div>
+
+			</div>
+			<div class="row sertificats_img">
+				<div class="col-md-4 col-12 item"> <img src="./img/first-sert.jpg" alt=""> </div>
+				<div class="col-md-4 col-12 item"> <img src="./img/sec-sert.jpg" alt=""> </div>
+				<div class="col-md-4 col-12 item"> <img src="./img/third-sert.jpg" alt=""> </div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="row footer_text justify-content-center">
+				<div class="col-12">
+					<h1>Не откладывай на потом,<br> начни бизнес уже сегодня </h1>
+				</div>
+			</div>
+			<div class="row footer_button justify-content-center">
+				<button class="button" id="callback">Получите бесплатную консультацию</button>
+			</div>
+			<div class="row footer-callback">
+				<div class="col-6 footer-callback__mail">
+					<a href="mailto:TOP-MARKET-06@yandex.ru">TOP-MARKET-06@yandex.ru</a>
+					<p>Режим работы 10:00 - 19:00</p>
+				</div>
+				<div class="col-6 footer-callback__phone ">
+					<p>+7 963 398 4731</p>
+					<div id="callback">Заказать звонок</div>
+				</div>
+
+			</div>
+			<div class="row footer-policy justify-content-center">
+				<div class="footer-policy__adress">
+					<p>Юридический адрес: республика <br> Ингушетия,г.Назрань,ул.Муталиева <br> 12/2,оф.№19 </p>
+				</div>
+				<div class="footer-policy__policy">
+					<a href="Politika_konfedentsialnosti1.pdf" target="_blank">Политика конфиденциальности</a>
+					<p>Сбербанк 4276 5600 2429 0456 <br> Экажев Магомед Аюпович</p>
+				</div>
+				<div class="footer-policy__inn">
+					<p>ИНН: 0608049828<br> КПП: 060801001<br> ОГРН: 1180608002288</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/scripts.min.js"></script>
+	<script src="./libs/jquery/dist/jquery.event.move.js"></script>
+	<script src="./libs/jquery/dist/jquery.twentytwenty.js"></script>
+	<script type="text/javascript" src="./libs/slick/slick.min.js"></script>
+</body>
+
+</html>
